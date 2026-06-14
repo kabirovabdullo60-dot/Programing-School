@@ -3,7 +3,7 @@
     font-family: sans-serif;
 }
 header{
-    max-width: 1280px;
+    max-width: 1270px;
     margin: auto;
    .header1{
     width: 100%;
@@ -20,9 +20,10 @@ header{
         align-items: center;
         display: flex;
         gap: 45px;
-        p{
+        a{
             font-size: 14px;
             color: gray;
+            text-decoration: none;
         }
     }
     div{
@@ -45,7 +46,7 @@ header{
 }
 
 section{
-    max-width: 1280px;
+    max-width: 1270px;
     margin: auto;
     .section1{
         width: 100%;
@@ -96,3 +97,90 @@ section{
         }
     }
 }
+
+.section2text{
+    max-width: 1270px;
+    margin: auto;
+    margin-top: 25px;
+    h1{
+        width: 100%;
+        text-align: center;
+         font-size: 45px;
+         font-weight: 500;
+    }
+}
+.section2{
+    max-width: 1270px;
+    margin: auto;
+    background-color: #EAF2F5;
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 25px;
+    height: 400px;
+     .section2_2{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+     justify-content: space-between;
+     padding: 55px;
+    
+     div{
+     img{
+        background: none;
+        width: 350px;
+     }
+     }
+     .btns{
+        :nth-child(1){
+            width: 320px;
+            background-color: #5096FF;
+            padding: 11px;
+            color: white;
+            border: none;
+            border-radius: 50px;
+        }
+        :nth-child(2){
+            background-color: #FFB359;
+            padding: 11px;
+            width: 90px;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            }
+              .btns2{
+                margin-top: 10px;
+                 :nth-child(1){
+                    background-color: #F15525;
+                    width: 150px;
+                 }
+                 :nth-child(2){
+                      background-color: #4BD071;
+                      width: 280px;
+                 }
+               } 
+               .btns3{
+                margin-top: 10px;
+                 :nth-child(1){
+                     background-color: #50C0FF;
+                     width: 275px;
+                    }
+                    :nth-child(2){
+                   background-color: #4B77B9;
+                    }
+                    :nth-child(3){
+                        background-color: #AF93FF;
+                        width: 90px;
+                        border: none;
+                        padding: 11px;
+                        border-radius: 50px;
+                    }
+               }
+        }
+        p{
+            width: 360px;
+            margin-top: 35px;
+            font-size: 20px;
+        }
+     }
+     }
