@@ -486,7 +486,7 @@ section{
         border-radius: 30px;
   .exel,
   .kaloni,
-  .footer {
+  .footer_table {
     display: flex;
     align-items: center;
 
@@ -517,7 +517,7 @@ section{
     background: #efefef;
   }
 
-  .footer {
+  .footer_table {
     padding: 13px ;
     font-size: 22px;
     font-weight: 700;
@@ -533,4 +533,125 @@ section{
         font-size: 13px;
         color: gray;
     }
+}
+.back_section5{
+  
+}
+.footer_logoo{
+    width: 1220px;
+    margin: auto;
+    div{
+        background-color: #EAF2F5;
+        width: 94%;
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 25px;
+        margin-top: 50px;
+        p{
+            color: gray;
+            width: 650px;
+            font-weight: 300;
+            font-size: 18px;
+        }
+        button{
+             background-color: #F15525;
+            border: none;
+            border-radius: 50px;
+            padding: 23px;
+            width: 270px;
+            color: white;
+            font-size: 18px;
+        }
+         button:hover{
+                background-color: white;
+                 box-shadow: 2px 2px 2px 2px #F15525(245, 245, 245);
+                 color: #F15525;
+                 transition: 0.2s;
+            }
+    }
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  max-width: 1220px;
+  margin: auto;
+margin-top: 100px;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left {
+    img {
+      display: block;
+    }
+    .socials {
+      display: flex;
+      gap: 20px;
+      margin-top: 50px;
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    a {
+      color: #2f3148;
+      font-size: 13px;
+    }
+  }
+
+  .footer__right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    a {
+      color: #35b7f3;
+      font-size: 18px;
+    }
+
+    p {
+      color: #2f3148;
+      font-size: 13px;
+    }
+
+    .about {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      p {
+        color: #9d9d9d;
+      }
+    }
+  }
+
+  .xat {
+    margin-top: 50px;
+
+  }
+
+  .footer__bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      color: #9d9d9d;
+      font-size: 18px;
+    }
+  }
 }
