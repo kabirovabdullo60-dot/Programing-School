@@ -626,4 +626,180 @@ a {
 .footer .footer__bottom p {
   color: #9d9d9d;
   font-size: 18px;
+}
+
+@media (max-width: 510px) {
+  header {
+    max-width: 380px;
+    margin: auto;
+  }
+  header .header1 {
+    width: 95%;
+    margin: auto;
+  }
+  header .header1 a {
+    display: none;
+  }
+  .section11 .section1 {
+    flex-direction: column;
+    margin: auto;
+  }
+  .section11 .section1 div {
+    text-align: center;
+  }
+  .section11 .section1 div h4 {
+    font-size: 30px;
+    width: 90%;
+    margin: auto;
+  }
+  .section11 .section1 div hr {
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .section11 .section1 div p {
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .section11 .section1 div button {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .section11 .section1 div img {
+    width: 300px;
+    margin-top: 60px;
+  }
+  .section2text {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: none;
+  }
+  .section2text h1 {
+    font-size: 35px;
+  }
+  .section2 {
+    display: none;
+  }
+  .section2 .section2_2 {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: none;
+  }
+  .section2 .section2_2 div img {
+    display: none;
+  }
+  .section2 .section2_2 .btns {
+    margin-left: 1px;
+  }
+  .section2 .section2_2 .btns :nth-child(1) {
+    width: 90%;
+    margin: auto;
+  }
+  .section2 .section2_2 p {
+    display: none;
+  }
+  .section_3_text {
+    width: 100%;
+    margin: auto;
+  }
+  .section_3_text h1 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+  }
+  .section3 {
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    row-gap: 20px;
+  }
+  .sec_3_end {
+    overflow: scroll;
+    gap: 15px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .section4 {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .section4 div h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .section4 div p {
+    width: 90%;
+    margin: auto;
+  }
+  .section4 div img {
+    width: 100%;
+    margin: auto;
+  }
+  .section4 div .pouza {
+    width: 20%;
+    margin: auto;
+    margin-top: -170px;
+  }
+  .end_section_4 {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin-top: 35px;
+  }
+  .btns_sec_4 {
+    flex-direction: column;
+    margin-top: 600px;
+  }
+  .section5 {
+    flex-direction: column;
+    margin: auto;
+    padding: 0px;
+    display: none;
+  }
+  .section5 .div2 {
+    width: 90%;
+    padding: 0px;
+  }
+  .section5 .div2 p {
+    margin-left: -50px;
+  }
+  .section5_5 {
+    display: none;
+  }
+  .section_5_icon {
+    width: 98%;
+    flex-direction: column;
+    row-gap: 80px;
+  }
+  .footer_logoo {
+    display: none;
+  }
+  .footer {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  .footer__top {
+    flex-direction: column;
+  }
+  .xat {
+    width: 95%;
+    margin: auto;
+  }
+  .footer__bottom {
+    display: none;
+  }
+  .footer__bottom p {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
